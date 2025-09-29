@@ -24,7 +24,7 @@ def read_requirements():
 setup(
     name="linestring-simplifier",
     version="1.0.0",
-    author="GPX to DirectionsRoute Project",
+    author="Moritz Foerster",
     author_email="mo@moses-ai.com",
     description="Advanced geometry simplification for GeoJSON LineStrings with corner and curve preservation",
     long_description=read_readme(),
@@ -73,4 +73,5 @@ setup(
     },
     include_package_data=True,
     zip_safe=False,
+
 )
