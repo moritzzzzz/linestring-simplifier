@@ -1,0 +1,8 @@
+# Include additional files in the package distribution
+include README.md
+include requirements.txt
+include LICENSE
+recursive-include tests *.py
+recursive-include tests *.json
+prune tests/__pycache__
+prune linestring_simplifier/__pycache__

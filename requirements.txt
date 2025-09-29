@@ -1,0 +1,4 @@
+# Core dependencies for linestring_simplifier
+# No external dependencies required - uses only Python standard library
+# The geometry calculations are implemented using built-in math functions
+# for maximum compatibility and minimal installation requirements
